@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --dark: #102d22;
+    --leaf: #8bcf6a;
+    --leaf-soft: #a9d995;
+    --btn: #d9f2c2;
+    --line: #cfccc2;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", Arial, sans-serif;
+    
+}
+
+.navbar {
+    position: absolute;
+    inset: 0 0 auto 0;
+    z-index: 10;
+}
+
+.navbar .container {
+    min-height: 76px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-link {
+    position: relative;
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    inset: auto 8px 0;
+    height: 2px;
+    background: var(--leaf);
+    transform: scaleX(0);
+    transition: transform 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--leaf-soft) !important;
+}
+
+.nav-link.active {
+    color: #fff !important;
+}
+
+.nav-link.active::after {
+    background: #fff;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    transform: scaleX(1);
+}
+
+.kviz {
+    min-height: 100%;
+    padding: 140px 0 96px;
+    background: linear-gradient(rgba(11, 42, 31, 0.85), rgba(1, 5, 4, 0.92)), url("/img/sloth-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #0b2a1f;
+    color: #9fb3a8;
+}
+
+.kviz h1 {
+    color: #fff;
+    font-size: clamp(35px, 4vw, 51px);
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.kviz .felirat {
+    color: #6f8a7d;
+}
+
+.kerdes {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.04);
+    color: #dfe7e2;
+}
+
+.kerdes h2 {
+    margin-bottom: 16px;    
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 1.4;
+}
+
+.kerdes.jo {
+    border: 2px solid rgb(159, 250, 22);    
+}
+
+.kerdes.rossz {
+    border: 2px solid #ec2323;
+}
+
+
+.kviz-gomb,     
+.kviz-gomb-masik {
+    padding: 12px 28px;
+    border-radius: 50px;
+}
+
+.kviz-gomb {
+    background-color: var(--btn);
+    color: var(--dark);
+}
+
+.kviz-gomb:hover {
+    background-color: var(--leaf-soft);
+    color: var(--dark);
+}
+
+.eredmeny {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
