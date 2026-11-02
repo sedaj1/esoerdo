@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Élővilág - Esőerdők világa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/elovilag.css">
+</head>
+
+<body>
+    <header class="oldal-hero">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/image-removebg-preview.png" alt="" class="logo">
+                    Esőerdők világa
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"
+                    aria-label="Menü">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainMenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link ms-lg-3" href="../index.html">Főoldal</a></li>
+                        <li class="nav-item"><a class="nav-link ms-lg-3" href="terkep.html">Térkép</a></li>
+                        <li class="nav-item"><a class="nav-link active ms-lg-3" href="elovilag.html">Élővilág</a></li>
+                        <li class="nav-item"><a class="nav-link ms-lg-3" href="kviz.html">Kvíz</a></li>
+                        <li class="nav-item"><a class="nav-link ms-lg-3" href="fenntarthatosag.html">Tippek</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero-content container">
+            <p class="eyebrow">Az élet otthona</p>
+            <h1>Az esőerdők<br>élővilága.</h1>
+            <p class="lead-text">Jaguároktól az orchideákig: ismerd meg azokat a fajokat, amelyek a Föld
+                legsokszínűbb élőhelyén otthonra találtak.</p>
+        </div>
+    </header>
+    <main>
+        <section class="jelentoseg">
+            <div class="container">
+                <div class="row g-4 mb-5">
+                    <div class="col-lg-5">
+                        <p class="felirat">Négy emelet, négy világ</p>
+                        <h2>Az esőerdő rétegei</h2>
+                    </div>
+                    <div class="col-lg-5 offset-lg-2">
+                        <p>Az esőerdő függőlegesen is rétegekre tagolódik. Más a fényviszony, a hőmérséklet és a
+                            páratartalom, ezért minden szint más életközösséget táplál.</p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="reteg pt-4">
+                            <p class="szam">01</p>
+                            <h3>Kiemelkedő fák</h3>
+                            <p>A lombkorona fölé törő óriások, akár 60 méter fölé is nőnek. Itt él a sas és sok
+                                madárfaj.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="reteg pt-4">
+                            <p class="szam">02</p>
+                            <h3>Lombkorona</h3>
+                            <p>Összefüggő zöld tető, az élővilág nagy része itt zajlik: majmok, tukánok, orchideák.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="reteg pt-4">
+                            <p class="szam">03</p>
+                            <h3>Aljnövényzet</h3>
+                            <p>Félhomályos, párás szint fiatal fákkal, páfrányokkal, kígyókkal és rovarokkal.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="reteg pt-4">
+                            <p class="szam">04</p>
+                            <h3>Erdőtalaj</h3>
+                            <p>A napfény töredéke jut le ide. A lehullott levelek gyorsan lebomlanak, a tápanyag
+                                újra körbejár.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="vilag">
+            <div class="container">
+                <div class="row align-items-end g-4 mb-5">
+                    <div class="col-lg-6">
+                        <p class="felirat">Fajok az esőerdőből</p>
+                        <h2 class="text-white">Ismerd meg a lakóit</h2>
+                    </div>
+                    <div class="col-lg-4 offset-lg-2">
+                        <p class="mb-0">Válassz kategóriát, és fedezd fel az esőerdők legkülönlegesebb állatait és
+                            növényeit.</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap gap-2 mb-5">
+                    <button class="szuro active" data-szuro="mind">Mind</button>
+                    <button class="szuro" data-szuro="allat">Állatok</button>
+                    <button class="szuro" data-szuro="noveny">Növények</button>
+                </div>
+                <div class="row g-4 fajok"></div>
+                <div class="text-center mt-5">
+                    <a href="kviz.html" class="hero-btn">Teszteld a tudásod <i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row footer-content">
+                <div class="col-lg-4 col-md-12 footer-brand">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../img/image-removebg-preview.png" alt="" class="logo">
+                        Esőerdők világa
+                    </a>
+                    <p class="mb-0">
+                        Ismeretterjesztő felület a bolygó legösszetettebb
+                        ökoszisztémáiról, értékeikről és megőrzésük
+                        lehetőségeiről.
+                    </p>
+                </div>
+
+                <div class="col-6 col-lg-2 offset-lg-1 footer-links">
+                    <h3 class="text-uppercase">Felfedezés</h3>
+                    <a href="../index.html">Főoldal</a>
+                    <a href="terkep.html">Térkép</a>
+                    <a href="elovilag.html">Élővilág</a>
+                </div>
+
+                <div class="col-6 col-lg-2 footer-links">
+                    <h3 class="text-uppercase">Tudástár</h3>
+                    <a href="kviz.html">Kvíz</a>
+                    <a href="fenntarthatosag.html">Tippek</a>
+                </div>
+
+                <div class="col-lg-3 col-md-12 footer-links footer-project">
+                    <h3 class="text-uppercase">Projekt</h3>
+                    <a href="https://github.com/sedaj1/esoerdo" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <p>Készítette: Prokay Soma, Schéda Bálint</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom d-flex justify-content-between align-items-center pt-3">
+                <p class="mb-0">© 2026 Esőerdők világa. Minden jog fenntartva.</p>
+                <p class="mb-0">A természet jövője közös történetünk.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/elovilag.js"></script>
+
+</body>
+</html>
