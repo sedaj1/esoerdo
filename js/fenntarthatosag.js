@@ -8,7 +8,7 @@ function togglePledge() {
     fogadalom.classList.toggle("aktiv");
     let cim = fogadalom.querySelector("strong");
     if (fogadalom.classList.contains("aktiv")) {
-        cim.innerHTML = "Köszönjük, megtetted!";
+        cim.innerHTML = "Köszönjük, hogy megtetted!";
     } else {
         cim.innerHTML = "Fogadalmat teszek";
     }
