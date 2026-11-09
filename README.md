@@ -35,13 +35,6 @@ Esőerdő/
     └── fenntarthatosag.html
 ```
 
-## Képek forrásai
-
-| Fájl | Szerző | Licenc | Forrás |
-|------|--------|--------|--------|
-| img/hero-esoerdo.jpg | | | |
-| img/esoerdo-bevezeto.jpg | | | |
-
 ## Készítők
 
 - Prokay Soma
