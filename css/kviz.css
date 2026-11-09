@@ -73,7 +73,7 @@ body {
 .kviz {
     min-height: 100%;
     padding: 140px 0 96px;
-    background: linear-gradient(rgba(11, 42, 31, 0.85), rgba(1, 5, 4, 0.92)), url("/img/sloth-bg.jpg");
+    background: linear-gradient(rgba(11, 42, 31, 0.85), rgba(1, 5, 4, 0.92)), url("../img/sloth-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
